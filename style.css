@@ -84,7 +84,7 @@ img {
 
 .aside {
   width: 360px;
-  margin: 0 50px 0 0;
+  margin: 0 40px 0 0;
   align-items: center;
   color: #ffffff;
   background-color: #1e2939;
@@ -96,7 +96,6 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 30px;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 460px){
@@ -149,16 +148,17 @@ img {
 }
 
 .profession {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 2.4rem;
   margin-bottom: 23px;
+  color: #ff6b08;
 }
 
 .name {
   font-size: 4.5rem;
   font-weight: 700;
-  line-height: 8.9rem;
+  line-height: 5.9rem;
 }
 
 .description {
@@ -170,7 +170,7 @@ img {
 }
 
 .main-info__section {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .main-info__title,
@@ -186,6 +186,7 @@ img {
 }
 
 .projects__item {
+  font-size: 1.6rem;
   font-weight: 700;
   margin-left: 25px;
 }
@@ -218,10 +219,6 @@ img {
   .code {
     font: 1rem sans-serif;
   } 
-}
-
-.courses-list {
-  margin-left: 20px;
 }
 
 .courses__link {
