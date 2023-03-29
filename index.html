@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="nav">
+          <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#lengueges" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>  
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>  
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>  
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>                     
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper main__wrapper">
+        <aside class="aside">
+          <div class="photo" id="photo">
+            <img src="./img/Timofeeva_EV.jpg" alt="My photo">
+        </div>
+        </aside>
+        <div class="main-info">
+          <section class="main-info__section" id="about-me">
+            <p class="profession">Junior Front-end Developer</p>
+            <h1 class="name">Elizaveta Tymofieieva</h1>
+            <p class="description">
+              I'm a passionate front-end developer, complete RSScool courses for front-end developers.
+              I like dreaming up ideas and making them come true with elegant interfaces. I take care of the experience, architecture, and code quality of the things I build.
+              I'm currently looking for new opportunities.
+            </p>
+          </section>
+          <section class="main-info__section" id="projects">
+            <h2 class="main-info__title">Projects</h2>
+            <ol>
+                <li class="projects__item">
+                  <a href="https://github.com/myspecialspace/rsclone" class="projects__link">Trello clone</a>
+                  <span class="dots">...............</span>
+                  <b>[</b>
+                  <span class="use-skills">TS, React, Redux, Sass</span>
+                  <b>]</b>
+                </li>
+                <li class="projects__item">
+                  <a href="https://verdant-chaja-f104d2.netlify.app/" class="projects__link">Online store</a>
+                  <span class="dots">...............</span>
+                  <b>[</b>
+                  <span class="use-skills">TS, HTML, Sass</span>
+                  <b>]</b>
+                </li>
+                <li class="projects__item">
+                  <a href="https://rolling-scopes-school.github.io/elizabetht7-JSFEPRESCHOOL2022Q2/momentum/" class="projects__link">Momentum</a>
+                  <span class="dots">...............</span>
+                  <b>[</b>
+                  <span class="use-skills">JS</span>
+                  <b>]</b>
+                </li>
+                <li class="projects__item">
+                  <a href="https://rolling-scopes-school.github.io/elizabetht7-JSFE2022Q3/online-zoo/pages/main/ " class="projects__link">Online zoo</a>
+                  <span class="dots">...............</span>
+                  <b>[</b>
+                  <span class="use-skills">HTML, CSS, JS</span>
+                  <b>]</b>
+                </li>
+            </ol>                     
+          </section>
+          <section class="main-info__section" id="code">
+            <h2 class="main-info__title">Code Example</h2>
+            <pre class="code__container">
+                <code class="code">  
+                Array.prototype.map = function(callback, thisArg) { 
+                  let arr = this.slice();
+                  let result = new Array();
+                  let length = arr.length;
+                  for (let i = 0; i < length; i++) {
+                    if (i in arr) {
+                      let item = callback.call(thisArg,this[i], i, this);
+                      result.push(item);     
+                    } else {
+                      result.push(undefined)
+                    }
+                  } 
+                  return result;
+                }
+                </code>
+            </pre>
+          </section>
+          <section class="main-info__section" id="courses">
+            <h2 class="main-info__title">Courses</h2>
+            <ul class="courses-list">
+              <li class="item">
+                <a href="https://rs.school/react/" class="courses__link">
+                  RS Schools Course «React» (in progress)
+                </a>
+              </li>
+              <li class="item">
+                <a href="https://app.rs.school/certificate/p1p1p59m" class="courses__link">
+                  RS Schools Course «JAVASCRIPT/FRONT-END 2022Q3 (JAVASCRIPT)» 
+                </a>
+              </li>
+              <li class="item">
+                <a href="https://app.rs.school/certificate/ohzy3el6" class="courses__link">
+                  RS Schools Course «JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)»
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="main-info__section" id="experience">
+            <h2 class="main-info__title">Work Experience</h2>
+            <section>
+              <h4 class="position__title">
+                Front-end developer
+                <span class="company">Freelance</span><br>
+              </h4>
+              <span class="period-and-country">
+                September 2022 - up to now
+                <span class="divider">|</span>
+                Russia
+              </span>
+              <ul class="profession-duties">
+                <li>Cross-browser and adaptive layout.</li>
+                <li>Work with git, github</li>
+              </ul>
+            </section>
+            <section>
+              <h4 class="position__title">
+                Mathematics Teacher
+                <span class="company">Municipal educational institution Oktyabrskaya secondary school N54</span><br>
+              </h4>
+              <span class="period-and-country">
+                October 2019 - August 2022 
+                <span class="divider">|</span>Russia
+              </span>
+              <ul class="profession-duties">
+                <li>Work planning for a quarter, a year and work according to plan</li>
+                <li>Maintaining documentation</li>
+                <li>Combination of theoretical and practical teaching of mathematics</li>
+                <li>Participation in seminars and conferences</li>
+                <li>Class guide</li>
+              </ul>
+            </section>
+            <section>
+              <h4 class="position__title">
+                Junior Researcher
+                <span class="company">
+                  Institute of Solid-state Physics, Material Science and Technologies (ISPMST)<br>    
+                  National Science Centre “Kharkiv Institute of Physics and Technology” (KIPT)
+                </span><br>
+              </h4>
+              <span class="period-and-country">
+                April 2012 - October 2019
+                <span class="divider">|</span>Ukraine
+              </span>
+              <ul class="profession-duties researcher">
+                <li>Development and application of protective coatings</li>
+                <li>Analysis, processing and presentation of results</li>
+                <li>Writing articles in scientific journals</li>
+                <li>Participation in conferences</li>
+                <li>Preparations and support of projects</li>
+              </ul>
+            </section>
+          </section>
+          <section class="main-info__section" id="education">
+            <h2 class="main-info__title">Education</h2>
+            <p><span class="company">V.N. Karazin Kharkiv National University, Kharkiv, Ukraine</span><br>
+            <p class="specialty">M.S. in Applied Physics</p>
+            <span class="period-and-country">
+              September 2006 - March 2012
+              <span class="divider">|</span>
+              Ukraine
+            </span>
+        </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__item">&copy;2023</div>
+        <div class="footer__item">
+          <a href="https://github.com/ElizabethT7" class="link_github"></a>
+        </div> 
+      </div>
+    </footer>
+</body>
+</html>
