@@ -84,8 +84,7 @@ img {
 
 .aside {
   width: 360px;
-  margin: 0 60px 0 0;
-  padding-right: 60px;
+  margin: 0 50px 0 0;
   align-items: center;
   color: #ffffff;
   background-color: #1e2939;
@@ -97,6 +96,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 30px;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 460px){
@@ -106,6 +106,30 @@ img {
   .photo {
     width: 260px;
   }
+}
+
+.contacts {
+  margin: 60px 20px 0 30px;
+}
+
+.item {
+  list-style: none;
+}
+
+.contact__type {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #fff;
+  margin-right: 6px;
+}
+
+.contact__item {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #8893a5;
 }
 
 .main-info {
@@ -137,16 +161,21 @@ img {
   padding-top: 60px;
 }
 
-.main-info__title {
+.main-info__title,
+.aside-title {
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 2.4rem;
   margin-bottom: 10px;
 }
 
+.aside-title {
+  margin-bottom: 20px;
+}
+
 .projects__item {
   font-weight: 700;
-  margin-left: 17px;
+  margin-left: 25px;
 }
 
 .projects__link,
@@ -179,6 +208,10 @@ img {
   } 
 }
 
+.courses-list {
+  margin-left: 20px;
+}
+
 .courses__link {
   font-size: 1.6rem;
   font-weight: 400;
@@ -207,7 +240,7 @@ img {
 
 .period-and-country {
   color: #a8a8a8;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.4rem;
 }
@@ -221,7 +254,7 @@ img {
   margin-top: 15px;
   margin-bottom: 30px;
   color: #595959;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.4rem;
   margin-left: 15px;
@@ -242,7 +275,7 @@ img {
 }
     
 .footer__item {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   display: flex;
   padding: 15px;
   color: #172b4d;
