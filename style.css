@@ -109,8 +109,11 @@ img {
 }
 
 .contacts,
-.languages {
-  margin: 60px 20px 0 30px;
+.languages,
+.skills,
+.tools {
+  padding-top: 60px;
+  margin: 0 20px 0 40px;
 }
 
 .contact__item {
