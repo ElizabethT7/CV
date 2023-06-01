@@ -41,7 +41,7 @@
               </li>
               <li class="contact__item">
                 <span class="contact__type">Phone:</span>
-                <a class="aside__item" href="tel:+89773391347"> +89773391347</a>
+                <a class="aside__item" href="tel:+79773391347"> +79773391347</a>
               </li>
               <li class="contact__item">
                 <span class="contact__type">E-mail:</span>
@@ -62,6 +62,8 @@
                 <li class="item"><span class="aside__item">JavaScript</span></li>
                 <li class="item"><span class="aside__item">TypeScript</span></li>
                 <li class="item"><span class="aside__item">React</span></li>
+                <li class="item"><span class="aside__item">Redux</span></li>
+                <li class="item"><span class="aside__item">Unit test</span></li>
             </ul>
           </section>
           <section class="tools">
@@ -71,6 +73,8 @@
                 <li class="item"><span class="aside__item">VS Code</span></li>
                 <li class="item"><span class="aside__item">Webpack</span></li>
                 <li class="item"><span class="aside__item">Eslint, Prettier</span></li>
+                <li class="item"><span class="aside__item">Vite, Vitest</span></li>
+                <li class="item"><span class="aside__item">Tailwind</span></li>
                 <li class="item"><span class="aside__item">Figma</span></li>
             </ul>
           </section>
@@ -94,10 +98,10 @@
         </aside>
         <div class="main-info">
           <section class="main-info__section" id="about-me">
-            <p class="profession">Junior Front-end Developer</p>
+            <p class="profession">Frontend Developer</p>
             <h1 class="name">Elizaveta Tymofieieva</h1>
             <p class="description">
-              I'm a passionate front-end developer, complete RSScool courses for front-end developers.
+              I'm a passionate front-end developer, complete RSScool courses for frontend developers.
               I like dreaming up ideas and making them come true with elegant interfaces. I take care of the experience, architecture, and code quality of the things I build.
               I'm currently looking for new opportunities.
             </p>
@@ -105,56 +109,42 @@
           <section class="main-info__section" id="projects">
             <h2 class="main-info__title">Projects</h2>
             <ol>
-                <li class="projects__item">
-                  <a href="https://github.com/myspecialspace/rsclone" class="projects__link">Trello clone</a>
-                  <span class="dots">..............</span>
-                  <b>[</b>
-                  <span class="use-skills">TS, React, Redux, Sass</span>
-                  <b>]</b>
-                </li>
-                <li class="projects__item">
-                  <a href="https://verdant-chaja-f104d2.netlify.app/" class="projects__link">Online store</a>
-                  <span class="dots">............</span>
-                  <b>[</b>
-                  <span class="use-skills">TS, HTML, Sass</span>
-                  <b>]</b>
-                </li>
-                <li class="projects__item">
-                  <a href="https://rolling-scopes-school.github.io/elizabetht7-JSFEPRESCHOOL2022Q2/momentum/" class="projects__link">Momentum</a>
-                  <span class="dots">............</span>
-                  <b>[</b>
-                  <span class="use-skills">JS</span>
-                  <b>]</b>
-                </li>
-                <li class="projects__item">
-                  <a href="https://rolling-scopes-school.github.io/elizabetht7-JSFE2022Q3/online-zoo/pages/main/ " class="projects__link">Online zoo</a>
-                  <span class="dots">................</span>
-                  <b>[</b>
-                  <span class="use-skills">HTML, CSS, JS</span>
-                  <b>]</b>
-                </li>
+              <li class="projects__item">
+                <a href="https://graphiql-team.netlify.app/" class="projects__link">GraphiQl</a>
+                <span class="dots">..............</span>
+                <b>[</b>
+                <span class="use-skills">TS, React, Redux, Tailwind</span>
+                <b>]</b>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/myspecialspace/rsclone" class="projects__link">Trello clone</a>
+                <span class="dots">..............</span>
+                <b>[</b>
+                <span class="use-skills">TS, React, Redux, Sass</span>
+                <b>]</b>
+              </li>
+              <li class="projects__item">
+                <a href="https://verdant-chaja-f104d2.netlify.app/" class="projects__link">Online store</a>
+                <span class="dots">............</span>
+                <b>[</b>
+                <span class="use-skills">TS, HTML, Sass</span>
+                <b>]</b>
+              </li>
+              <li class="projects__item">
+                <a href="https://rolling-scopes-school.github.io/elizabetht7-JSFEPRESCHOOL2022Q2/momentum/" class="projects__link">Momentum</a>
+                <span class="dots">............</span>
+                <b>[</b>
+                <span class="use-skills">JS</span>
+                <b>]</b>
+              </li>
+              <li class="projects__item">
+                <a href="https://rolling-scopes-school.github.io/elizabetht7-JSFE2022Q3/online-zoo/pages/main/ " class="projects__link">Online zoo</a>
+                <span class="dots">................</span>
+                <b>[</b>
+                <span class="use-skills">HTML, CSS, JS</span>
+                <b>]</b>
+              </li>
             </ol>                     
-          </section>
-          <section class="main-info__section" id="code">
-            <h2 class="main-info__title">Code Example</h2>
-            <pre class="code__container">
-                <code class="code">  
-                Array.prototype.map = function(callback, thisArg) { 
-                  let arr = this.slice();
-                  let result = new Array();
-                  let length = arr.length;
-                  for (let i = 0; i < length; i++) {
-                    if (i in arr) {
-                      let item = callback.call(thisArg,this[i], i, this);
-                      result.push(item);     
-                    } else {
-                      result.push(undefined)
-                    }
-                  } 
-                  return result;
-                }
-                </code>
-            </pre>
           </section>
           <section class="main-info__section" id="courses">
             <h2 class="main-info__title">Courses</h2>
