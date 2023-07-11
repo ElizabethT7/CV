@@ -1,2 +1,4 @@
-# CV
-Junior Front-End Developer
+# Frontend Developer
+
+## Deploy    
+[https://tymofieieva-cv.netlify.app/](https://tymofieieva-cv.netlify.app/)
