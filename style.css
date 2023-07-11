@@ -292,6 +292,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 35%;
+}
+
+@media screen and (max-width: 640px){
+  .footer__wrapper {
+    margin-left: 0;
+  }
 }
     
 .footer__item {
