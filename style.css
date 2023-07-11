@@ -22,7 +22,9 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;     /*сжимается пропорционально по высоте*/
+  background-size: cover;
 }
 
 .wrapper {
@@ -71,10 +73,10 @@ img {
 
 .main__wrapper {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 640px){
   .main__wrapper {
     flex-wrap: wrap;
     margin: auto;
@@ -83,28 +85,29 @@ img {
 }
 
 .aside {
-  width: 360px;
+  width: 100%;
   margin: 0 40px 0 0;
   align-items: center;
   color: #ffffff;
   background-color: #1e2939;
 }
 
+@media screen and (max-width: 640px){
+  .aside {
+    width: 100%;
+    margin: 0 15px 0 0;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1e2939;
+  } 
+}
+
 .photo {
-  width: 360px;
+  width: 100%;
   background: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 30px;
-}
-
-@media screen and (max-width: 460px){
-  .aside {
-    width: 260px;
-  }
-  .photo {
-    width: 260px;
-  }
+  margin: 30px auto;
 }
 
 .contacts,
@@ -189,6 +192,14 @@ img {
   font-size: 1.6rem;
   font-weight: 700;
   margin-left: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .projects__item {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 25px;
+  }
 }
 
 .projects__link,
